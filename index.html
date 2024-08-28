@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Encriptador de Texto</h1>
+    </header>
+
+    <div class="container">
+        <textarea id="inputText" placeholder="Ingresa el texto aquí..."></textarea>
+        <div class="buttons">
+            <button onclick="encryptText()">Encriptar</button>
+            <button onclick="decryptText()">Desencriptar</button>
+        </div>
+        <textarea id="outputText" placeholder="Resultado..."></textarea>
+        <div class="buttons">
+            <button onclick="copyText()">Copiar</button>
+            <button onclick="downloadText()">Descargar</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Creado por: Laura Vanessa Cortés Jimenez</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
